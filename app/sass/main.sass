@@ -1,0 +1,313 @@
+html
+	font-size: 16px
+
+
+body
+	background-color: #e1f0f8
+	color: #484848
+.container
+	padding: 0
+.top-nav
+	padding-top: 10px
+	margin: 0
+	background: #fff
+	&_value 
+		a
+		 font: 21px Arial
+		 color: #eb5825
+	&_number
+	 font: 28px Arial
+	 text-align: right
+	 padding-right: 20px
+		p
+		 margin-bottom: 0px
+		span
+		 font: 16px Arial		
+	&_menu
+	 list-style: none
+	 padding: 0
+	 display: flex
+	 margin-top: 15px
+	 margin-bottom: 0
+		li
+		 width: 10.4em
+		 height: 55px
+		 font: 22px Arial
+		 border-right: solid #5f6973 1px
+		 text-align: center
+		 line-height: 50px
+			&:nth-child(5)
+			 border: none
+			&:hover 
+				background: #7bc3d5
+				cursor: pointer	
+				transition: all 0.5s
+				a
+				 color: #fff
+			a
+		 	 text-decoration: none
+		 	 color: #5f6973
+h1
+ font: 64px Arial
+ margin-top: 50px
+h6 
+ font: 26px Arial 					
+
+.left-sidebar
+	background: #fff
+	margin-top: 35px
+	border-radius: 8px
+	&_menu
+	 list-style: none
+	 padding: 0
+	 li
+	  padding: 10px 20px
+	  &:first-child
+	   padding-top: 25px
+	   padding-bottom: 25px
+	   font: 400 20px Arial
+	  &:last-child
+	   padding-bottom: 25px 
+	  a
+	   color: #ababab
+	   text-decoration: underline 
+	   &:hover
+	    color: #eb5825
+
+.product-menu
+	background: #fff
+	margin-top: 35px
+	border-radius: 8px
+	padding: 25px
+	h6
+	 font: 400 Arial
+	&_window
+	 margin-top: 30px
+	 background: url(../img/product.png) no-repeat center center
+	 width: 200px
+	 height: 353px
+	#insert
+	 margin-top: 70px
+	 padding-left: 40px
+	 color: #8a8a8a
+	 font: 400 18px Arial
+	&_selection
+	 margin-top: 30px
+	 margin-bottom: 100px
+	 .selection-content li
+	  color: #eb5825
+	  span
+	   color: #484848
+	 .selection-color
+	  margin-top: 40px
+	  &_texture
+	   margin-top: 25px
+	   background: url(../img/color.png) no-repeat center center
+	   width: 470px
+	   height: 60px
+	   position: relative
+	   display: inline-block
+	   a
+	    position: absolute
+	    &:hover
+	     background: url(../img/ok.png) no-repeat center center
+	     width: 50px
+	     height: 50px
+	     transition: all 0.1s
+	    &:nth-of-type(1)
+	     width: 12.56%
+	     height: 100%
+	    &:nth-of-type(2)
+	     left: 14.4%
+	     width: 12.56%
+	     height: 100%
+	    &:nth-of-type(3)
+	     left: 29.1%  
+	     width: 12.56%
+	     height: 100% 
+	    &:nth-of-type(4)
+	     left: 43.9%
+	     width: 12.56%
+	     height: 100%
+	    &:nth-of-type(5)
+	     left: 58.4%
+	     width: 12.56%
+	     height: 100%
+	    &:nth-of-type(6)
+	     left: 73%
+	     width: 12.56%
+	     height: 100%
+	    &:nth-of-type(7)
+	     left: 87.5%
+	     width: 12.56%
+	     height: 100%
+	  p
+	   margin-top: 28px 
+	   font: 400 14px Ariald
+	  &_btn
+	   margin-top: 45px
+	   width: 310px
+	   height: 43px
+	   border-radius: 5px
+	   border: 0
+	   cursor: pointer
+	   color: #fff
+	   font: 400 18px Arial
+	   background: #eb5825
+	   transition: box-shadow 0.7s, font-size 0.5s
+	   &:hover
+	    box-shadow: 1px 1px 10px 1px #eb5825
+	    font-size: 19px
+	    border-color: #eb5825
+	    outline: 0
+	   &:active
+	    background: #fff
+	    color: #4b4b4b 
+	    border: solid #4b4b4b 2px
+	    outline: 0
+	   &:focus
+	    outline: 0 
+	    background: #fff
+	    color: #4b4b4b 
+	    border: solid #4b4b4b 2px
+	  a
+	   font: 14px Arial
+	   color: #8a8a8a
+	   text-decoration: underline 
+	   &:hover
+	    color: #eb5825
+
+.content
+	background: #fff
+	margin-top: 25px
+	border-radius: 8px
+	padding: 25px
+	&_top
+	 margin-top: 15px
+	 h6
+	  font: 26px Arial
+	 .raw_1
+	  background: url(../img/spritesheet.png) -5px -5px no-repeat
+	  padding: 27px 27px 5px 27px
+	  position: relative
+	  left: 0
+	  top: 48px 
+	 .raw_2
+	  background: url(../img/spritesheet.png) -5px -68px no-repeat
+	  padding: 33px 27px 5px 27px
+	  position: relative
+	  left: 0
+	  top: 57px 
+	 p 
+	  padding-left: 90px
+	  font: 14px Arial
+	  margin-bottom: 0
+	&_bottom
+	 margin-top: 35px
+	 h6
+	  font: 26px Arial
+	 .raw_3
+	   background: url(../img/spritesheet.png) -5px -137px no-repeat
+	   padding: 8px 0 5px 34px
+	   position: relative
+	   left: 0
+	   top: 30px
+	 .raw_4
+	   background: url(../img/spritesheet.png) -5px -181px no-repeat
+	   padding: 8px 0 5px 34px
+	   position: relative
+	   left: 0
+	   top: 37px
+	 .raw_5
+	   background: url(../img/spritesheet.png) -5px -225px no-repeat
+	   padding: 8px 0 5px 34px
+	   position: relative
+	   left: 0
+	   top: 30px   
+	 p
+	  padding-left: 52px 
+	  font: 14px Arial
+	  margin-bottom: 0  
+
+.caption
+	margin-top: 45px
+	h6
+	 font: 26px Arial
+	a
+	 text-decoration: underline
+	 color: #eb5825
+	 &:hover
+	  color: #4b4b4b
+.reviews
+	margin-top: 20px 
+	background: #fff
+	border-radius: 10px
+	padding: 25px
+	margin-bottom: 100px
+	&_name
+	 font: 400 16px Arial
+	 color: black
+	 margin-top: 5px
+	&_treaty
+	 font: 14px Arial
+	 color: #8a8a8a
+	 margin-top: 10px 
+	&_data
+	 font: 14px Arial
+	 color: #8a8a8a
+	&_stars
+	 background: url(../img/spritesheet.png) -5px -270px no-repeat
+	 width: 75px
+	 height: 12px
+	 margin-top: 10px
+	&_content
+	 margin-top: 10px
+	 font: 14px Arial
+	span
+	 background: url(../img/spritesheet.png) -5px -292px no-repeat  
+	 padding: 0 0 0 13px
+	 position: relative
+	 left: 0
+	 top: 6px 
+	a
+	 padding-left: 5px
+	 color: #eb5825
+	 margin-top: 10px
+	 text-decoration: underline
+	 text-decoration-style: dashed
+	 &:hover
+	  text-decoration: underline
+	&_btn
+	 margin-top: 35px
+	 width: 160px
+	 height: 38px
+	 border-radius: 5px
+	 border: 0
+	 cursor: pointer
+	 color: #fff
+	 font: 400 18px Arial
+	 background: #eb5825
+	 transition: box-shadow 0.7s, font-size 0.5s     
+	 &:hover
+	  box-shadow: 1px 1px 10px 1px #eb5825
+	  font-size: 19px
+	  border-color: #eb5825
+	  outline: 0
+	 &:active
+	  background: #fff
+	  color: #4b4b4b 
+	  border: solid #4b4b4b 2px
+	  outline: 0
+	 &:focus
+	  outline: 0 
+	  background: #fff
+	  color: #4b4b4b 
+	  border: solid #4b4b4b 2px
+
+
+
+
+
+
+	  
+	   
